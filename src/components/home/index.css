@@ -1,0 +1,200 @@
+.Container-home {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background: #212529;
+}
+
+.Home-data {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 1020px;
+    max-width: 100%;
+    height: 593px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+
+.Data-left {
+    width: 447px;
+    max-width: 100%;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.Data-left__logo h1 {
+    color: #FD377E;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.Data-left__logo span {
+    color: white;
+    margin-left: 10px;
+    font-weight: 600;
+    
+
+}
+
+
+
+.Data-left__title {
+    color: white;
+    font-size: 30px;
+
+}
+
+.Data-left__description {
+    color: white;
+    font-weight: none;
+}
+
+.Start-button {
+    
+}
+
+.Start-button button {
+    cursor: pointer;
+    width: 241px;
+    max-width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: #FD377E;
+    color: white;
+}
+
+
+
+
+.Data-right {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border: none;
+    background: url('./data-right.png') no-repeat;
+    width: 515px;
+    height: 513px;
+    margin-top: 50px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1024px){
+
+
+    .Container-home {
+        width: 100vw;
+        max-width: 100%;
+        height: 100vh;
+        background: #212529;
+    }
+    
+    .Home-data {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 1020px;
+        max-width: 100%;
+        height: 593px;
+        margin: 0px auto;
+        border-radius: 10px;
+    }
+    
+    
+    .Data-left {
+        width: 447px;
+        max-width: 100%;
+        height: 593px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .Data-left__logo h1 {
+        color: #FD377E;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    
+    .Data-left__logo span {
+        color: white;
+        margin-left: 10px;
+        font-weight: 600;
+        
+    
+    }
+    
+    
+    
+    .Data-left__title {
+        color: white;
+        font-size: 30px;
+    
+    }
+    
+    .Data-left__description {
+        color: white;
+        font-weight: none;
+    }
+    
+    .Start-button {
+        
+    }
+    
+    .Start-button button {
+        cursor: pointer;
+        width: 241px;
+        max-width: 100%;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: none;
+        background: #FD377E;
+        color: white;
+    }
+    
+    
+    
+    
+    .Data-right {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        border: none;
+        background: url('./data-right.png') no-repeat;
+        width: 515px;
+        height: 513px;
+        margin-top: 50px;
+        display: flex;
+
+    }
+    
+
+
+}

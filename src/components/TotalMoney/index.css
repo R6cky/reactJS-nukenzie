@@ -1,0 +1,83 @@
+
+.Show-data{
+    width: 353px;
+    height: 160px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 32px -12px #FD377E;    
+    padding: 0 10px;
+    
+}
+
+.Show-data>p{
+    color: #FD377E;
+    font-size: 18px;
+}
+
+.Total-value{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+
+.Values-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.Value-title{
+
+}
+
+
+.Value-number{
+
+}
+
+
+
+
+@media(min-width: 1024px){
+
+ 
+    
+    .Show-data{
+        width: 94%;
+        height: 160px;
+        position: relative;
+        top: -180px;
+        
+    
+    }
+    
+    .Show-data>p{
+    }
+    
+    .Total-value{
+    }
+    
+    
+    
+    
+    .Values-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+    }
+    
+    .Value-title{
+    
+    }
+    
+    
+    .Value-number{
+    
+    }
+}
